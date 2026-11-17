@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Daily Jurnal</title>
+    <link rel="icon" href="assets/img/SolaDev.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav begin -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Daily Jurnal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-dark ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#article">Article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galery">Galery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- hero begin -->
+    <section id="hero" class="text-center p-5 bg-success-subtle text-md-start">
+        <div class="container">
+            <div class="d-md-flex flex-md-row-reverse align-items-center">
+                <img src="assets/img/banner.jpg" alt="banner" class="img-fluid" width="300">
+                <div>
+                    <h1 class="fw-bold display-4">
+                        Create Memories, Save Memories, Everyday
+                    </h1>
+                    <h4 class="lead display-6">
+                        Mencatat semua kegiatan sehari-hari yang ada tanpa terkecuali
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="profile" class="text-center p-5 bg-primary-subtle text-md-start">
+        <div class="container">
+            <h1 class="fw-bold display-4 pb-3 text-center">Profile Saya</h1>
+            <div class="d-md-flex flex-md-row align-items-center gap-4">
+                <div class="ratio ratio-1x1 w-50 mx-auto mb-4">
+                    <img src="assets/img/profile.JPG" alt="banner" class="rounded-circle object-fit-cover">
+                </div>
+                <div class="card flex-grow-1">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">In Sola Scriptura</h5>
+                        <p class="card-text text-muted">Mahasiswa Teknik Informatika</p>
+
+                        <div class="row g-2 align-items-center text-start">
+                            <div class="col-3 col-md-4 fw-bold">NIM</div>
+                            <div class="col-auto px-0">:</div>
+                            <div class="col-7 col-md-7 text-break">A11.2025.16563</div>
+
+                            <div class="col-3 col-md-4 fw-bold">Program Studi</div>
+                            <div class="col-auto px-0">:</div>
+                            <div class="col-7 col-md-7 text-break"> Teknik Informatika</div>
+
+                            <div class="col-3 col-md-4 fw-bold">Email</div>
+                            <div class="col-auto px-0">:</div>
+                            <div class="col-7 col-md-7 text-break">
+                                <a href="mailto:solascriptura0706@gmail.com" class="text-reset text-decoration-none"
+                                    target="_blank" title="Tekan Untuk Menghubungi">solascriptura0706@gmail.com</a>
+                            </div>
+
+                            <div class="col-3 col-md-4 fw-bold">Telepon</div>
+                            <div class="col-auto px-0">:</div>
+                            <div class="col-7 col-md-7 text-break">
+                                <a href="https://wa.me/6285643423295" class="text-reset text-decoration-none"
+                                    target="_blank" title="Tekan Untuk Menghubungi">+62
+                                    856-4342-3295</a>
+                            </div>
+
+                            <div class="col-3 col-md-4 fw-bold">Alamat</div>
+                            <div class="col-auto px-0">:</div>
+                            <div class="col-7 col-md-7 text-break">Dsn. Doro, Kel. Jlarem, Kec. Gladagsari, Kab.
+                                Boyolali
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-12 col-md-7">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.1123373244317!2d110.47907456966666!3d-7.41541786964869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7bc66ba40c1b%3A0x31d6e98e730b7151!2sSianny%20Astuti%20Villa!5e0!3m2!1sid!2sid!4v1793190364323!5m2!1sid!2sid"
+                                    class="w-100" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero end -->
+    <!-- article begin -->
+    <section id="article" class="text-center p-5 bg-info-subtle">
+        <div class="container">
+            <h1 class="fw-bold display-4 pb-3">Jurnal Saya
+            </h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/echa_drum_set.jpeg" class="card-img-top" alt="echa drum set">
+                        <div class="card-body">
+                            <h5 class="card-title">Drum Set milik Echa Soemantri</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/gedung_g_udinus.jpeg" class="card-img-top" alt="kampus udinus gedung h">
+                        <div class="card-body">
+                            <h5 class="card-title">Geudng H Kampus UDINUS</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/gunung.jpg" class="card-img-top" alt="gunung">
+                        <div class="card-body">
+                            <h5 class="card-title">Pemandangan Gunung</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/rb22.jpg" class="card-img-top" alt="rb22">
+                        <div class="card-body">
+                            <h5 class="card-title">RedBull RB22 F1 Car</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/kebun_teh.jpeg" class="card-img-top" alt="kebun teh">
+                        <div class="card-body">
+                            <h5 class="card-title">Kebun Teh</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="schedule" class="text-center p-5 bg-secondary-subtle">
+        <div class="container">
+            <h1 class="fw-bold display-4 pb-3">Jadwal Kuliah & Kegiatan</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100 border-danger-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-danger-subtle fw-bold text-danger-emphasis py-2">
+                            Senin
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start gap-3">
+                            <div class="schedule-item border-bottom pb-2">
+                                <span class="badge bg-danger-subtle text-danger-emphasis mb-1">07:00 - 09:30</span>
+                                <div class="fw-bold">Logika Informatika</div>
+                                <small class="text-muted fst-italic">Ruang H 3.8</small>
+                            </div>
+                            <div class="schedule-item border-bottom pb-2">
+                                <span class="badge bg-danger-subtle text-danger-emphasis mb-1">09:30 - 12:00</span>
+                                <div class="fw-bold">Probabilitas & Statistik</div>
+                                <small class="text-muted fst-italic">Ruang H 4.1</small>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="badge bg-danger-subtle text-danger-emphasis mb-1">16:20 - 18:00</span>
+                                <div class="fw-bold">Basis Data (Teori)</div>
+                                <small class="text-muted fst-italic">Ruang H 4.9</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-info-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-info-subtle fw-bold text-info-emphasis py-2">
+                            Selasa
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start">
+                            <div class="schedule-item">
+                                <span class="badge bg-info-subtle text-info-emphasis mb-1">14:10 - 15:50</span>
+                                <div class="fw-bold">Pemrograman Berbasis Web</div>
+                                <small class="text-muted fst-italic">Ruang H 7.1</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-warning-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-warning-subtle fw-bold text-warning-emphasis py-2">
+                            Rabu
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start">
+                            <div class="schedule-item">
+                                <span class="badge bg-warning-subtle text-warning-emphasis mb-1">12:30 - 14:10</span>
+                                <div class="fw-bold">Kriptografi</div>
+                                <small class="text-muted fst-italic">Online</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-danger-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-danger-subtle fw-bold text-danger-emphasis py-2">
+                            Kamis
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start gap-3">
+                            <div class="schedule-item border-bottom pb-2">
+                                <span class="badge bg-danger-subtle text-danger-emphasis mb-1">08:40 - 10:20</span>
+                                <div class="fw-bold">Basis Data (Praktek)</div>
+                                <small class="text-muted fst-italic">Ruang H 7.1</small>
+                            </div>
+                            <div class="schedule-item border-bottom pb-2">
+                                <span class="badge bg-danger-subtle text-danger-emphasis mb-1">12:30 - 15:00</span>
+                                <div class="fw-bold">Sistem Operasi</div>
+                                <small class="text-muted fst-italic">Ruang H 3.1</small>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="badge bg-danger-subtle text-danger-emphasis mb-1">16:00 - 17:30</span>
+                                <div class="fw-bold">Rekayasa Perangkat Lunak</div>
+                                <small class="text-muted fst-italic">Online</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-info-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-info-subtle fw-bold text-info-emphasis py-2">
+                            Jumat
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start">
+                            <div class="schedule-item">
+                                <span class="badge bg-info-subtle text-info-emphasis mb-1">12:30 - 15:00</span>
+                                <div class="fw-bold">Penambangan Data</div>
+                                <small class="text-muted fst-italic">Ruang H 5</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-warning-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-warning-subtle fw-bold text-warning-emphasis py-2">
+                            Sabtu
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start">
+                            <div class="schedule-item">
+                                <span class="badge bg-warning-subtle text-warning-emphasis mb-1">17:00 - 19:00</span>
+                                <div class="fw-bold">Ibadah Pemuda</div>
+                                <small class="text-muted fst-italic">GIA PaLam</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-secondary-subtle border-2 shadow-sm rounded-3 overflow-hidden">
+                        <div class="card-header bg-secondary-subtle fw-bold text-secondary-emphasis py-2">
+                            Minggu
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-start">
+                            <div class="schedule-item">
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis mb-1">06:00 -
+                                    08:00</span>
+                                <div class="fw-bold">Ibadah Raya</div>
+                                <small class="text-muted fst-italic">GIA PaLam</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="galery" class="text-center p-5 bg-danger-subtle">
+        <div class="container">
+            <h1 class="fw-bold display-4 pb-3">galery</h1>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/echa_drum_set.jpeg" class="d-block w-100" alt="drum set echa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/kebun_teh.jpeg" class="d-block w-100" alt="kebun teh">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/gunung.jpg" class="d-block w-100" alt="gunung">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/gedung_g_udinus.jpeg" class="d-block w-100" alt="gedung h udinus">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/rb22.jpg" class="d-block w-100" alt="rb22">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- gallery end -->
+    <!-- footer begin -->
+    <footer class="text-center p-5">
+        <div>
+            <a target="_blank" href="https://www.instagram.com/inisola_"><i
+                    class="bi bi-instagram h2 p-2 text-dark"></i></a>
+            <a target="_blank" href="https://youtube.com/@yondasola?si=qjWVfhOCp0zNh-Py"><i
+                    class="bi bi-youtube h2 p-2 text-dark"></i></a>
+            <a target="_blank" href="https://wa.me/6285643423295"><i class="bi bi-whatsapp h2 p-2 text-dark"></i></a>
+        </div>
+        <div>
+            In Sola Scriptura &copy; 2026
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
